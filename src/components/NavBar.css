@@ -1,0 +1,21 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  height: 70px;
+  padding: 0 120px;
+  background-color: rgba(0, 255, 255, 0.079);
+}
+.logo {
+  margin-bottom: 0px;
+}
+.nav {
+  display: flex;
+  gap: 40px !important;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.nav_item {
+  list-style: none;
+  cursor: pointer;
+}
