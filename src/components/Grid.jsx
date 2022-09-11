@@ -1,7 +1,7 @@
 import React from "react";
 import "./Grid.css";
 
-const Grid = ({ title, text, image, order }) => {
+const Grid = ({ title, text, image, order, text2 }) => {
   console.log(image);
   return (
     <div
@@ -13,6 +13,8 @@ const Grid = ({ title, text, image, order }) => {
       <div className='grid-left'>
         <h1>{title}</h1>
         <p>{text}</p>
+        <br />
+        <p>{text2}</p>
       </div>
       <div className='grid-right'>
         <img src={image} alt='' />
