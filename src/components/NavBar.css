@@ -4,7 +4,8 @@
   align-items: center !important;
   height: 70px;
   padding: 0 120px;
-  background-color: rgba(0, 255, 255, 0.079);
+  background-color: rgb(227, 245, 255);
+  /* background-color: rgba(0, 255, 255, 0.079); */
 }
 .logo {
   margin-bottom: 0px;

@@ -17,6 +17,10 @@ const Card = ({ title, text, image }) => {
       <h1
         style={{
           padding: "15px 0px",
+          fontSize: "24px",
+          fontFamily: "'Montserrat', sans-serif",
+          fontWeight: 800,
+          color: "#222f3e",
         }}>
         {title}
       </h1>
@@ -24,6 +28,9 @@ const Card = ({ title, text, image }) => {
         style={{
           lineHeight: "32px",
           paddingBottom: "20px",
+          fontFamily: "'Montserrat', sans-serif",
+          fontWeight: 400,
+          color: "#576574",
         }}>
         {text}
       </p>
