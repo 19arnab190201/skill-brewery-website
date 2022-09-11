@@ -1,7 +1,6 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
 import { Hero } from "./components/Hero";
-import "antd/dist/antd.css";
 import Grid from "./components/Grid";
 
 // images
