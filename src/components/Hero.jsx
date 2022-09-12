@@ -1,5 +1,6 @@
 import React from "react";
 import heroimg from "../assets/test.png";
+import line1 from "../assets/line1.svg";
 
 import "./Hero.css";
 export const Hero = () => {
@@ -27,7 +28,7 @@ export const Hero = () => {
             </div>
           </div>
           <div className='hero-right'>
-            <img src={heroimg} alt='' />
+            <img src={line1} alt='' />
           </div>
         </div>
       </div>

@@ -1,14 +1,14 @@
 import React from "react";
 import "./Grid.css";
 
-const Grid = ({ title, text, image, order, text2 }) => {
+const Grid = ({ title, text, image, order, text2, bg }) => {
   console.log(image);
   return (
     <div
       className='grid-container'
       style={{
         flexDirection: order === 1 ? "row" : "row-reverse",
-        backgroundColor: order === 1 ? "#fff" : "#f7f7f7",
+        backgroundColor: order === 1 ? "#fff" : "#fff",
       }}>
       <div className='grid-left'>
         <h1

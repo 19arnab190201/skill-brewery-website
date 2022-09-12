@@ -1,6 +1,7 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
 import { Hero } from "./components/Hero";
+import applicant from "./assets/application.svg";
 import Grid from "./components/Grid";
 
 // images
@@ -16,7 +17,9 @@ function App() {
 
       <Hero />
       <Grid
-        order={1}
+        className='main-grid'
+        bg={0}
+        order={0}
         title='Skill Brewery: Free Internship Program'
         text='Work on cool hands-on projects to amplify your profile. Gain an internship certificate, work experience and mentoring after the completion of the programme.'
         text2='Choose a domain of your interest and get started now! Please note that you can only complete one internship function at a time and will have to wait at least one month before pursuing another function.'
@@ -48,15 +51,9 @@ function App() {
       </div>
       <Grid
         order={1}
-        title='Who Started this'
-        text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evoved over the years, sometimes by accident, sometimes on purpose (injected humour and the like"
-        image={grid}
-      />
-
-      <Grid
-        order={0}
-        title='Who Started this'
-        text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evoved over the years, sometimes by accident, sometimes on purpose (injected humour and the like"
+        title='Application Process'
+        text='Fill out the application below and follow us on Linkedin/Instagram'
+        text2='Don’t forget to fill out the verification form (in the form of a Google Form) reading all instructions in the form carefully. Failure to follow the instructions will invite a fine /have your application deleted!  Both steps are compulsory!'
         image={grid}
       />
     </div>
