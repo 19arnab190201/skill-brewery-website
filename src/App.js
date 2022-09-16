@@ -54,7 +54,7 @@ function App() {
         title='Application Process'
         text='Fill out the application below and follow us on Linkedin/Instagram'
         text2='Don’t forget to fill out the verification form (in the form of a Google Form) reading all instructions in the form carefully. Failure to follow the instructions will invite a fine /have your application deleted!  Both steps are compulsory!'
-        image={grid}
+        image={applicant}
       />
     </div>
   );
