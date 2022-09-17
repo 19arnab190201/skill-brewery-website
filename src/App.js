@@ -3,13 +3,17 @@ import NavBar from "./components/NavBar";
 import { Hero } from "./components/Hero";
 import applicant from "./assets/application.svg";
 import Grid from "./components/Grid";
+import Faq from "./components/Faq";
+import Footer from "./components/Footer";
+// import Courses from "./components/Courses";
+import Card from "./components/Card";
 
 // images
 
 import grid from "./assets/grid.png";
-import Card from "./components/Card";
 import cardicon from "./assets/card-icon.png";
 import aboutimg from "./assets/about.png";
+import faqimg from "./assets/faq.svg";
 function App() {
   return (
     <div className='App'>
@@ -56,7 +60,11 @@ function App() {
         text2='Don’t forget to fill out the verification form (in the form of a Google Form) reading all instructions in the form carefully. Failure to follow the instructions will invite a fine /have your application deleted!  Both steps are compulsory!'
         image={applicant}
       />
+     
+      <Faq order={0} image={faqimg} />
+      <Footer />
     </div>
+    
   );
 }
 
